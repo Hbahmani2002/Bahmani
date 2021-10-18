@@ -257,6 +257,7 @@
             // chkXsig
             // 
             this.chkXsig.AutoSize = true;
+            this.chkXsig.Enabled = false;
             this.chkXsig.Location = new System.Drawing.Point(10, 122);
             this.chkXsig.Name = "chkXsig";
             this.chkXsig.Size = new System.Drawing.Size(79, 17);
