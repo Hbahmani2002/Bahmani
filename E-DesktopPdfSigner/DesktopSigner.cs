@@ -97,7 +97,7 @@ namespace DesktopPdfSigner
                 //    WebsocketServer.Sender("IamDone");
                 //    Application.Exit();
                 //}
-                chkXsig.Checked = false;
+                chkXsig.Checked = true;
                 LicenseUtil.setLicenseXml(new FileStream(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "lisans.xml"), FileMode.Open, FileAccess.Read));
                 SmartCardManager smartCardManager = SmartCardManager.getInstance();
                 var smartCardCertificate = smartCardManager.getSignatureCertificate(true, false);
